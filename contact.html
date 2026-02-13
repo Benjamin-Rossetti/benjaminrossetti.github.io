@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me Contacter</title>
+    <link rel="stylesheet" href="css/style_index.css">
+    <link rel="stylesheet" href="css/style.contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+</head>
+  <script src="js/script_contact.js"></script>
+<body>
+    <div id="popup" class="popup-overlay">
+    <div class="popup-box">
+        <p>Merci ! ton message a bien été pris en compte. (:</p>
+        <button type="button" class="contact-btn" id="closePopup">Fermer</button>
+    </div>
+    </div>
+    <header class="site-header">
+      <div class="header-left">
+          <p class="subtitle">Benjamin Rossetti || Apprenti Informaticien </p>
+      </div>
+      <div class="right">
+        <a href="https://github.com/Benjamin-Rossetti" class="github-btn" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/" class="github-btn" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <button class="contact-btn" onclick="location.href='index.html'" id="btn">
+          <p id="texte" class="texte">Accueil</p>
+        </button>
+        <button class="contact-btn" onclick="location.href='contact.html'" id="btn">
+          <p id="texte" class="texte">Contact</p>
+        </button>
+        <button class="contact-btn" onclick="location.href='comp.html'" id="btn">
+          <p id="texte" class="texte">Compétence</p>
+        </button>
+      </div>
+  </header>
+  <div class="container">
+    <article class="card">
+        <h1>Contact</h1>
+        <p>N'hesite pas à me Contacter</p>
+        
+    </article>
+    <article class="card">
+        <h2>Disclaimer !!</h2>
+        <p>
+            L'envoie de mail est 100% fictif, je n'est pas la capacité matérielle pour
+            avoir des serveur mail est pouvoir avoir tous un systeme d'envoie de mail réel.
+        </p>
+        <p>Néanmoins, tu peux quand même essayer le</p>
+    </article>
+    <article class="contact">
+        <form class="contact-form">
+            <label for="name">Nom</label>
+            <input id="name" name="name" type="text" placeholder="Ton Nom">
+            <label for="email">Email</label>
+            <input id="text" name="email" type="text" placeholder="mon@email.com">
+            <label for="message">Ton Message</label>
+            <textarea name="message" id="message" rows="6" placeholder="Ecris ton message ici..."></textarea>
+            <button type="submit" class="contact-btn">Envoyer</button>
+        </form>
+    </article>
+    <article class="source">
+        <p>Source: ChatGPT, W3School, Hostinger</p>
+        <p>Note: Ce site web à été codé par moi même avec l'aide de l'IA.</p>
+        <p> Mais aucun code n'a été copié-collé.  </p>
+        <p>Je me suis aussi inspiré du site Web de Hostinger pour le style de ma page. </p>
+        <p>Ce site sera mis à jour de temps en temps selon ma situation. </p>
+        <p>PS: Merci d'avoir consacré su temps à lire mon histoire :)</p>
+    </article>
+  </div>
+    <script src="js/script_contact.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Personnel</title>
+    <link rel="stylesheet" href="css/style_index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script src="js/script_index.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+      <div class="header-left">
+          <p class="subtitle">Benjamin Rossetti || Apprenti Informaticien </p>
+      </div>
+      <div class="right">
+        <a href="https://github.com/Benjamin-Rossetti" class="github-btn" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/" class="github-btn" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <button class="contact-btn" onclick="location.href='index.html'" id="btn">
+          <p id="texte" class="texte">Accueil</p>
+        </button>
+        <button class="contact-btn" onclick="location.href='contact.html'" id="btn">
+          <p id="texte" class="texte">Contact</p>
+        </button>
+        <button class="contact-btn" onclick="location.href='comp.html'" id="btn">
+          <p id="texte" class="texte">Compétence</p>
+        </button>
+      </div>
+  </header>
+  <div class="container">
+    <article class="pres">
+      <h1 class="Bonjour">Bonjour :)</h1>
+      <p>Bienvenue sur mon site Web !</p>
+      <p>Je m'appelle <strong>Benjamin Rossetti</strong>, je suis apprenti informaticien à <strong>l'ETML.</strong></p>
+    </article>
+
+    <main>
+      <section>
+        <h2>À propos de moi</h2>
+
+        <article class="card">
+          <h3>Mon parcours</h3>
+          <p>
+            J'ai débuté mon école obligatoire dans l'établissement scolaire de Begnins,
+            puis j'ai déménagé à <strong>Borex</strong> où j'ai fini mon école obligatoire dans <strong>l'établissement
+            d'Elisabeth de Porte.</strong>
+          </p>
+          <p>
+            Puis j'ai fait une année en <strong>école de culture générale au gymnase de Nyon</strong> avant
+            de venir à l'<strong>ETML</strong>.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Pourquoi l'ETML ?</h3>
+          <p>
+            Au début je voulais devenir <strong>pâtissier-confiseur</strong>, mais après un test anti-allergènes,
+            j'ai été détecté comme <strong>hypersensible à la farine</strong>.
+          </p>
+          <p>
+            J'ai donc dû trouver une solution rapidement, et j'ai choisi la voie de l'<strong>Informatique</strong>.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Mes stages</h3>
+          <ul>
+            <li>1 semaine en pâtisserie chez <strong>Durgnat</strong> à Villeneuve.</li>
+            <li>2 jours à la <strong>Feuillantine</strong> à <strong>Gland</strong> (où j'ai reçu une <strong>Offre</strong> ).</li>
+            <li>1 semaine à <strong>Rougemont</strong> à <strong>Nyon</strong> (eux aussi m'avaient proposé).</li>
+            <li>1 semaine dans l'entreprise de mon père <strong>TRB</strong> dans le cadre de la JOM (Journée Oser Métier)</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Mes hobbies</h3>
+          <ul>
+              <li>J'ai fait de la <strong>batterie</strong> pendant <strong>10</strong> ans.</li>
+              <li>
+              J'ai fait de l'<strong>Aïkido</strong> pendant <strong>8</strong> ans et atteint le niveau ceinture <strong>bleu</strong>
+              <em>(pas incroyable, même vraiment pas top).</em>
+              </li>
+              <li>Je fais du <strong>Ski</strong> depuis l'âge de <strong>4</strong> ans, c'est devenu une de mes passions !</li>
+              <li>Je joue aux <strong>Jeux Vidéo</strong> depuis environ <strong>8</strong> ans, avec un peu de compétition.</li>
+              <li>Manger, parce que qui n'aime pas manger.</li>
+          </ul>
+      </article>
+      <article class="card">
+        <h3>Bon et ducoup ?</h3>
+        <p>
+          Passons au chose plus intéressante, du concrés. Je fait pas de l'informatique pour rien.
+          C'est pourquoi je souhaite partager un de mes projet que j'ai fait durant les premières semaines
+          de mon apprentissage à l'ETML.
+        </p>
+      </article>
+      <article class="card">
+          <h2>Mon jeu</h2>
+          <p>
+              En début d'année, j'ai codé un jeu dans le cardre d'un des module que nous avions.
+              J'ai du coder un Master Mind, ou le but du jeu est de deviner une serie de 4 nombre
+              totalement aléatoire en 10 essaies. 4 niveaux de difficultés différentes
+          </p>
+          <a href="Game/SecretTest.exe" download>
+            <button class="Game" id="Game">
+              <p id = "text" class="texte">Lancer le Jeu</p>
+            </button>
+          </a>
+          <p>
+              ⚠️ Windows peut afficher un avertissement de sécurité car le jeu est un projet personnel
+              non signé. Le fichier est sûr.
+          </p>
+      </article>
+      </section>
+    </main>
+  
+  <article class="source">
+    <p>Source: ChatGPT, W3School, Hostinger</p>
+    <p>Note: Ce site web à été codé par moi même avec l'aide de l'IA.</p>
+    <p> Mais aucun code n'a été copié-collé.  </p>
+    <p>Je me suis aussi inspiré du site Web de Hostinger pour le style de ma page. </p>
+    <p>Ce site sera mis à jour de temps en temps selon ma situation. </p>
+    <p>PS: Merci d'avoir consacré su temps à lire mon histoire :)</p>
+  </article>
+  </div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+/*Partie contact*/
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.contact-form label{
+    font-size: 22px;
+    opacity: 0.9;
+}
+.contact-form input,
+.contact-form textarea{
+    width: 96%;
+    padding: 14px 16px;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    background: rgba(255, 255, 255, 0.06);
+    color: #E1E0C9;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    outline: none;
+}
+.contact-form textarea{
+    resize: vertical;
+    min-height: 140px;
+}
+.contact-form input::placeholder,
+.contact-form textarea::placeholder{
+    color: rgba(225, 224, 201, 0.55);
+}
+/*Popup*/
+.popup-overlay{
+    position:fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+}
+.popup-overlay.show{
+    opacity: 1;
+    pointer-events: auto;
+}
+.popup-box{
+    width: min(520px, 92w);
+    background: rgba(255,255,255,0.08);
+    border: 1px sloid rgba(255, 255, 255, 0.12);
+    border-radius: 30px;
+    padding: 24px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+}
