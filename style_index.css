@@ -32,7 +32,7 @@ li{
 }
 .card-in{
     opacity: 0;
-    transform: translateY(400px);
+    transform: translateY(50px);
     animation: cardSlide 1.6s ease forwards;
 }
 @keyframes cardSlide {
@@ -107,7 +107,7 @@ li{
 
 .Bonjour{
     opacity: 0;
-    transform: translateY(400px);
+    transform: translateY(50px);
     animation: BonjourSlide 0.8s ease forwards;
 }
 @keyframes BonjourSlide{
@@ -118,7 +118,7 @@ li{
 }
 .para{
     opacity: 0;
-    transform: translateY(400px);
+    transform: translateY(50px);
     animation: paraSlide 1s ease forwards;
 }
 @keyframes paraSlide{
@@ -131,7 +131,7 @@ li{
 .about{
     margin-top: 80px;
     opacity: 0;
-    transform: translateY(400px);
+    transform: translateY(50px);
     animation: aboutSlide 1.3s ease forwards;
 }
 @keyframes aboutSlide {
