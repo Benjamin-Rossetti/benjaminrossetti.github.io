@@ -197,7 +197,9 @@ li{
     background-color: rgba(255, 255, 255, 0.06);
     transform: translateY(-6px) scale(1.1);
 }
-
+.image{
+    border-radius: 15px;
+}
 
 
 
