@@ -1,0 +1,15 @@
+.galerie{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+.galerie img{
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+.galerie img:hover{
+    transform:scale(1.05);
+}

@@ -1,0 +1,123 @@
+
+body{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+    color:#E1E0C9;
+    background-color:#5A6049 ;
+    background: linear-gradient(180deg,#5a5f50,#353833);
+    font-size: 22px;
+}
+li{
+    margin-bottom: 20px;
+}
+.card{
+    background:rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-radius: 50px;
+    padding: 22px;
+    margin: 40px 0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+}
+.container{
+    max-width: 900px;
+    margin: auto;
+    padding: 60px 20px;
+}
+/* en-tête du site*/
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #495049;
+}
+/*information de tête*/
+.subtitle{
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight:400 ;
+    color: #f1f1ea;
+    margin: 0;
+}
+.Bonjour{
+    width: auto;
+}
+.pres{
+    font-size: 40px;
+}
+/*bouton de contact*/
+.contact-btn{
+    padding: 16px 32px;
+    font-family:'Inter';
+    cursor: pointer;
+    border: none;
+    border-radius: 10px ;
+    background: #5A6049;
+    color: #E1E0C9;
+    font-size: 18px;
+    font-weight: 300;
+    transition: transform 0.12s ease, background-color 0.12s ease;
+
+}
+.insta-btn{
+    width: 45px;
+    height: 45px;
+    background: #5A6049;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 8px;
+    justify-content: center;
+    color: #E1E0C9;
+    text-decoration: none;
+    transition: transform 0.12s ease, background-color 0.12s ease;
+}
+.github-btn{
+     width: 45px;
+    height: 45px;
+    background: #5A6049;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-left:auto;
+    margin-right: 8px;
+    justify-content: center;
+    color: #E1E0C9;
+    text-decoration: none;
+    transition: transform 0.12s ease, background-color 0.12s ease;
+}
+.insta-btn:hover{
+    background-color: #6a7058;
+    transform: translateY(-2px);
+}
+/*quand on passe la souris sur le bouton*/
+.contact-btn:hover{
+    background-color:#6a7058 ;
+    transform: translateY(-2px);
+}
+
+.Game {
+    display: inline-block;
+    background: green;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.Game.hover{
+    background-color:#6a7058 ;
+    transform: translateY(-2px);
+}
+.source{
+    background:rgba(255, 255, 255, 0.01);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 50px;
+    padding: 22px;
+    margin: 40px 0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+    text-align: center;
+    color: rgba(224, 224, 202, 0.25);
+    font-size: 15px;
+}
